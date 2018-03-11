@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A593B5205584FD008D7BB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A593B4205584FD008D7BB4 /* AppDelegate.swift */; };
+		09A593B7205584FD008D7BB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A593B6205584FD008D7BB4 /* ViewController.swift */; };
+		09A593BC205584FD008D7BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A593BB205584FD008D7BB4 /* Assets.xcassets */; };
+		09A593BF205584FD008D7BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A593BD205584FD008D7BB4 /* LaunchScreen.storyboard */; };
+		09A593CA205584FD008D7BB4 /* POP_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A593C9205584FD008D7BB4 /* POP_TimerTests.swift */; };
+		09A593D5205584FD008D7BB4 /* POP_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A593D4205584FD008D7BB4 /* POP_TimerUITests.swift */; };
+		09A593E52055854B008D7BB4 /* TimerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A593E22055854A008D7BB4 /* TimerDelegate.swift */; };
+		09A593E62055854B008D7BB4 /* TimerBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A593E32055854A008D7BB4 /* TimerBrain.swift */; };
+		09A593E72055854B008D7BB4 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A593E42055854A008D7BB4 /* TimerViewController.swift */; };
+		09A593EA20558586008D7BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A593E920558586008D7BB4 /* Main.storyboard */; };
+		09A593EE20558648008D7BB4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09A593EB205585C7008D7BB4 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09A593C6205584FD008D7BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A593A9205584FD008D7BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A593B0205584FD008D7BB4;
+			remoteInfo = "POP-Timer";
+		};
+		09A593D1205584FD008D7BB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A593A9205584FD008D7BB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A593B0205584FD008D7BB4;
+			remoteInfo = "POP-Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09A593B1205584FD008D7BB4 /* POP-Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POP-Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A593B4205584FD008D7BB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09A593B6205584FD008D7BB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09A593BB205584FD008D7BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09A593BE205584FD008D7BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09A593C5205584FD008D7BB4 /* POP-TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POP-TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A593C9205584FD008D7BB4 /* POP_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POP_TimerTests.swift; sourceTree = "<group>"; };
+		09A593CB205584FD008D7BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A593D0205584FD008D7BB4 /* POP-TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POP-TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A593D4205584FD008D7BB4 /* POP_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POP_TimerUITests.swift; sourceTree = "<group>"; };
+		09A593D6205584FD008D7BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A593E22055854A008D7BB4 /* TimerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerDelegate.swift; sourceTree = "<group>"; };
+		09A593E32055854A008D7BB4 /* TimerBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerBrain.swift; sourceTree = "<group>"; };
+		09A593E42055854A008D7BB4 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		09A593E920558586008D7BB4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		09A593EB205585C7008D7BB4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09A593AE205584FD008D7BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A593C2205584FD008D7BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A593CD205584FD008D7BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09A593A8205584FD008D7BB4 = {
+			isa = PBXGroup;
+			children = (
+				09A593B3205584FD008D7BB4 /* POP-Timer */,
+				09A593E820558559008D7BB4 /* Supporting Files */,
+				09A593C8205584FD008D7BB4 /* POP-TimerTests */,
+				09A593D3205584FD008D7BB4 /* POP-TimerUITests */,
+				09A593B2205584FD008D7BB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09A593B2205584FD008D7BB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09A593B1205584FD008D7BB4 /* POP-Timer.app */,
+				09A593C5205584FD008D7BB4 /* POP-TimerTests.xctest */,
+				09A593D0205584FD008D7BB4 /* POP-TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09A593B3205584FD008D7BB4 /* POP-Timer */ = {
+			isa = PBXGroup;
+			children = (
+				09A593E32055854A008D7BB4 /* TimerBrain.swift */,
+				09A593E22055854A008D7BB4 /* TimerDelegate.swift */,
+				09A593E42055854A008D7BB4 /* TimerViewController.swift */,
+				09A593B6205584FD008D7BB4 /* ViewController.swift */,
+				09A593E920558586008D7BB4 /* Main.storyboard */,
+			);
+			path = "POP-Timer";
+			sourceTree = "<group>";
+		};
+		09A593C8205584FD008D7BB4 /* POP-TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				09A593C9205584FD008D7BB4 /* POP_TimerTests.swift */,
+				09A593CB205584FD008D7BB4 /* Info.plist */,
+			);
+			path = "POP-TimerTests";
+			sourceTree = "<group>";
+		};
+		09A593D3205584FD008D7BB4 /* POP-TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09A593D4205584FD008D7BB4 /* POP_TimerUITests.swift */,
+				09A593D6205584FD008D7BB4 /* Info.plist */,
+			);
+			path = "POP-TimerUITests";
+			sourceTree = "<group>";
+		};
+		09A593E820558559008D7BB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09A593B4205584FD008D7BB4 /* AppDelegate.swift */,
+				09A593BB205584FD008D7BB4 /* Assets.xcassets */,
+				09A593EB205585C7008D7BB4 /* Info.plist */,
+				09A593BD205584FD008D7BB4 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09A593B0205584FD008D7BB4 /* POP-Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A593D9205584FD008D7BB4 /* Build configuration list for PBXNativeTarget "POP-Timer" */;
+			buildPhases = (
+				09A593AD205584FD008D7BB4 /* Sources */,
+				09A593AE205584FD008D7BB4 /* Frameworks */,
+				09A593AF205584FD008D7BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POP-Timer";
+			productName = "POP-Timer";
+			productReference = 09A593B1205584FD008D7BB4 /* POP-Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09A593C4205584FD008D7BB4 /* POP-TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A593DC205584FD008D7BB4 /* Build configuration list for PBXNativeTarget "POP-TimerTests" */;
+			buildPhases = (
+				09A593C1205584FD008D7BB4 /* Sources */,
+				09A593C2205584FD008D7BB4 /* Frameworks */,
+				09A593C3205584FD008D7BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A593C7205584FD008D7BB4 /* PBXTargetDependency */,
+			);
+			name = "POP-TimerTests";
+			productName = "POP-TimerTests";
+			productReference = 09A593C5205584FD008D7BB4 /* POP-TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09A593CF205584FD008D7BB4 /* POP-TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A593DF205584FD008D7BB4 /* Build configuration list for PBXNativeTarget "POP-TimerUITests" */;
+			buildPhases = (
+				09A593CC205584FD008D7BB4 /* Sources */,
+				09A593CD205584FD008D7BB4 /* Frameworks */,
+				09A593CE205584FD008D7BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A593D2205584FD008D7BB4 /* PBXTargetDependency */,
+			);
+			name = "POP-TimerUITests";
+			productName = "POP-TimerUITests";
+			productReference = 09A593D0205584FD008D7BB4 /* POP-TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09A593A9205584FD008D7BB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Valentina Henao Arango";
+				TargetAttributes = {
+					09A593B0205584FD008D7BB4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					09A593C4205584FD008D7BB4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09A593B0205584FD008D7BB4;
+					};
+					09A593CF205584FD008D7BB4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09A593B0205584FD008D7BB4;
+					};
+				};
+			};
+			buildConfigurationList = 09A593AC205584FD008D7BB4 /* Build configuration list for PBXProject "POP-Timer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09A593A8205584FD008D7BB4;
+			productRefGroup = 09A593B2205584FD008D7BB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09A593B0205584FD008D7BB4 /* POP-Timer */,
+				09A593C4205584FD008D7BB4 /* POP-TimerTests */,
+				09A593CF205584FD008D7BB4 /* POP-TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09A593AF205584FD008D7BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A593EE20558648008D7BB4 /* Info.plist in Resources */,
+				09A593BF205584FD008D7BB4 /* LaunchScreen.storyboard in Resources */,
+				09A593BC205584FD008D7BB4 /* Assets.xcassets in Resources */,
+				09A593EA20558586008D7BB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A593C3205584FD008D7BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A593CE205584FD008D7BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09A593AD205584FD008D7BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A593E72055854B008D7BB4 /* TimerViewController.swift in Sources */,
+				09A593E62055854B008D7BB4 /* TimerBrain.swift in Sources */,
+				09A593E52055854B008D7BB4 /* TimerDelegate.swift in Sources */,
+				09A593B7205584FD008D7BB4 /* ViewController.swift in Sources */,
+				09A593B5205584FD008D7BB4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A593C1205584FD008D7BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A593CA205584FD008D7BB4 /* POP_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A593CC205584FD008D7BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A593D5205584FD008D7BB4 /* POP_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09A593C7205584FD008D7BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A593B0205584FD008D7BB4 /* POP-Timer */;
+			targetProxy = 09A593C6205584FD008D7BB4 /* PBXContainerItemProxy */;
+		};
+		09A593D2205584FD008D7BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A593B0205584FD008D7BB4 /* POP-Timer */;
+			targetProxy = 09A593D1205584FD008D7BB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09A593BD205584FD008D7BB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A593BE205584FD008D7BB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09A593D7205584FD008D7BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09A593D8205584FD008D7BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09A593DA205584FD008D7BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "valentina.POP-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09A593DB205584FD008D7BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "valentina.POP-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09A593DD205584FD008D7BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "POP-TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "valentina.POP-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POP-Timer.app/POP-Timer";
+			};
+			name = Debug;
+		};
+		09A593DE205584FD008D7BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "POP-TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "valentina.POP-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POP-Timer.app/POP-Timer";
+			};
+			name = Release;
+		};
+		09A593E0205584FD008D7BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "POP-TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "valentina.POP-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POP-Timer";
+			};
+			name = Debug;
+		};
+		09A593E1205584FD008D7BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "POP-TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "valentina.POP-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POP-Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09A593AC205584FD008D7BB4 /* Build configuration list for PBXProject "POP-Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A593D7205584FD008D7BB4 /* Debug */,
+				09A593D8205584FD008D7BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A593D9205584FD008D7BB4 /* Build configuration list for PBXNativeTarget "POP-Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A593DA205584FD008D7BB4 /* Debug */,
+				09A593DB205584FD008D7BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A593DC205584FD008D7BB4 /* Build configuration list for PBXNativeTarget "POP-TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A593DD205584FD008D7BB4 /* Debug */,
+				09A593DE205584FD008D7BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A593DF205584FD008D7BB4 /* Build configuration list for PBXNativeTarget "POP-TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A593E0205584FD008D7BB4 /* Debug */,
+				09A593E1205584FD008D7BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09A593A9205584FD008D7BB4 /* Project object */;
+}

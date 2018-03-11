@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Timer View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TimerViewController" customModule="POP_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GwM-f2-vwM">
+                                <rect key="frame" x="87.5" y="183.5" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.89677472809213865" green="0.89216797119224789" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Tmh-s4-CLW"/>
+                                    <constraint firstAttribute="width" constant="200" id="hNZ-kg-qTV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="100"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="feO-dd-xny">
+                                <rect key="frame" x="87.5" y="413.5" width="200" height="30"/>
+                                <color key="backgroundColor" red="0.81359327593911657" green="1" blue="0.49274138336517637" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2wS-SC-AON"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qmi-TD-z62">
+                                <rect key="frame" x="178" y="265.5" width="19" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Qmi-TD-z62" firstAttribute="centerY" secondItem="GwM-f2-vwM" secondAttribute="centerY" id="9Xp-DC-hKA"/>
+                            <constraint firstItem="GwM-f2-vwM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZV8-ON-nPf"/>
+                            <constraint firstItem="Qmi-TD-z62" firstAttribute="centerX" secondItem="GwM-f2-vwM" secondAttribute="centerX" id="a3Y-3f-Prc"/>
+                            <constraint firstItem="GwM-f2-vwM" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-60" id="jIj-xj-KSC"/>
+                            <constraint firstItem="feO-dd-xny" firstAttribute="leading" secondItem="GwM-f2-vwM" secondAttribute="leading" id="jyg-aa-zf8"/>
+                            <constraint firstItem="feO-dd-xny" firstAttribute="centerX" secondItem="GwM-f2-vwM" secondAttribute="centerX" id="kHn-wp-AU5"/>
+                            <constraint firstItem="feO-dd-xny" firstAttribute="top" secondItem="GwM-f2-vwM" secondAttribute="bottom" constant="30" id="kP1-jx-CaO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="remainingTime" destination="Qmi-TD-z62" id="NDd-md-w9G"/>
+                        <outlet property="timerIndicator" destination="GwM-f2-vwM" id="2Z4-el-Op3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
